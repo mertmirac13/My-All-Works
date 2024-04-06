@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/static/Montserrat-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/static/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/static/Montserrat-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/static/Montserrat-Bold.ttf);
+    font-weight: bold;
+}
+
+.post_detail-container{
+    margin-top: 5rem;
+}
+
+.post_detail-container .post-detail-infos{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.post_detail-container .post-detail-infos .post-detail-date{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0.5rem 0;
+    color: #ff2400;
+}
+
+.post_detail-container .post-detail-infos .post-detail-time{
+    font-size: 18px;
+    font-weight: 600;   
+    
+    color: #ff2400;
+}
+
+.post_detail-container .post_detail-image{
+    width: 100%;
+    height: 600px;
+}
+
+.post_detail-container h1,h2,h3{
+    color:#3a0ca3;
+    font-weight: bold;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.post_detail-container h1{
+    font-size: 42px;
+}
+
+.post_detail-container h2{
+    font-size: 36px;
+}
+
+.post_detail-container h3{
+    font-size: 24px;
+}
+
+.post_detail-container p{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.post_detail-container .post-writer{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    color: #3a0ca3;
+    
+}
+
+
+
+@media only screen and(max-width: 850px) {
+    .post_detail-container{
+        margin-top: 0;
+    }
+    
+    .post_detail-container .post_detail-image{
+        width: 100%;
+        height: 250px;
+    }
+
+    .post_detail-container p{
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .post_detail-container h1,h2,h3{
+        color:#3a0ca3;
+        font-weight: bold;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    
+    .post_detail-container h1{
+        font-size: 20px;
+    }
+    
+    .post_detail-container h2{
+        font-size: 18px;
+    }
+    
+    .post_detail-container h3{
+        font-size: 16px;
+    }
+
+}

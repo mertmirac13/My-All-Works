@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:ital,wght@1,100&display=swap');
+
+.bodyimg{
+  background-image: url('foto.svg')!important;
+  background-size: cover;
+  background-position: center;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+	min-height:100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-top:10rem;
+  color:#FBAE3C
+}
+
+.box{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+  background-color: transparent;
+	padding:70px 100px;
+}
+
+.name-container{
+  position:relative;
+	margin-bottom:25px;
+}
+
+.name-container label{
+  position:absolute;
+	top:0px;
+	left:0px;
+	font-size:20px;
+  pointer-events: none;
+	color:#FBAE3C;	
+	transition: all 0.5s ease-in-out;
+}
+
+.name-container input{ 
+  border:0;
+  border-bottom:1px solid #FBAE3C;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:20px;
+  color:#FBAE3C;
+}
+.name-container input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #e74c3c;	
+}
+
+.name-container input:focus ~ label,
+.name-container input:valid ~ label{
+	top:-12px;
+  color:transparent;
+	font-size:12px;
+	
+}
+
+.email-container{
+  position:relative;
+	margin-bottom:25px;
+}
+
+.email-container label{
+  position:absolute;
+	top:0px;
+	left:0px;
+	font-size:20px;
+	color:#FBAE3C;	
+  pointer-events: none;
+	transition: all 0.5s ease-in-out;
+}
+
+.email-container input{ 
+  border:0;
+  border-bottom:1px solid #FBAE3C;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:20px;
+  color:#FBAE3C;
+}
+.email-container input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #e74c3c;	
+}
+
+.email-container input:focus ~ label,
+.email-container input:valid ~ label{
+	top:-12px;
+	font-size:12px;
+	
+}
+
+.pass-container{
+  position:relative;
+	margin-bottom:40px;
+}
+
+.pass-container label{
+  position:absolute;
+	top:0px;
+	left:0px;
+	font-size:20px;
+  pointer-events: none;
+	color:#FBAE3C;	
+	transition: all 0.5s ease-in-out;
+}
+
+.pass-container input{ 
+  border:0;
+  border-bottom:1px solid #FBAE3C;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:20px;
+  color:#FBAE3C;
+}
+.pass-container input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #e74c3c;	
+}
+
+.pass-container input:focus ~ label,
+.pass-container input:valid ~ label{
+	top:-12px;
+	font-size:12px;
+}
+
+.register-btn{
+  display: flex; 
+  justify-content: center; 
+  margin-top: 1rem;
+}
+
+.register-btn input{
+  background-color:#FBAE3C; 
+  border:none;
+  padding:15px 32px; 
+  text-align:center; 
+  text-decoration:none;
+  font-size: 18px;
+  cursor:pointer; 
+  border-radius:12px;
+  color:#001220
+
+}

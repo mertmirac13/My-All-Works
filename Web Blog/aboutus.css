@@ -1,0 +1,135 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/static/Montserrat-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/static/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/static/Montserrat-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat/static/Montserrat-Bold.ttf);
+    font-weight: bold;
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.app__header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 79%;
+    height: 80px;
+    margin-bottom: 8rem;
+    
+}
+
+.app_logo {
+    display:flex;
+    flex-direction: row;
+    text-align: left;
+    width:220px;
+    height:55px;
+    margin-left: 4rem;
+}
+
+.app_logo .zep-logo{
+    display: none;
+}
+
+.menu_collapse{
+    display: none;
+}
+
+.app__links{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    text-align: right;   
+    margin-right: 4rem;
+}
+
+.app__links li{
+    margin-right: 1.5rem;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.app__links li.active{
+    margin-right: 1.5rem;
+    font-size: 16px;
+    font-weight: 600;
+    color: #8b0000;
+    cursor: pointer;
+}
+
+.about-section{
+   width: 65%;
+   float: inline-end;
+}
+
+.inner-container{
+    width: 55%;
+    background-color: #edbee7;
+    padding:100px;
+    position: relative;
+    position: absolute;
+    margin-top: 50rem;  
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #301934;
+}
+
+.text{
+    font-size: 15px;
+    color: #545454;
+    line-height: 30px;
+    font-weight: 500;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 15px;
+    color: #4b0082;
+}

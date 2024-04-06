@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:ital,wght@1,100&display=swap');
+
+.bodyimg{
+  background: linear-gradient(90deg, #DE26A0 0%, #068FF1 100%);
+	min-height:100vh;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-top:3rem;
+  color:#2b2e4a;
+}
+
+.box{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+  background-color: transparent;
+	padding:70px 100px;
+}
+
+.baslik-container{
+  position:relative;
+	margin-bottom:25px;
+}
+
+.baslik-container label{
+  position:absolute;
+	top:0px;
+	left:0px;
+	font-size:20px;
+  pointer-events: none;
+	color:#2b2e4a;	
+	transition: all 0.5s ease-in-out;
+}
+
+.baslik-container input{ 
+  border:0;
+  border-bottom:1px solid #2b2e4a;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:20px;
+  color:#2b2e4a;
+}
+.baslik-container input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #e74c3c;	
+}
+
+.baslik-container input:focus ~ label,
+.baslik-container input:valid ~ label{
+	top:-12px;
+  color:transparent;
+	font-size:12px;	
+}
+
+.yazi-container{
+  position:relative;
+	margin-bottom:25px;
+}
+
+.yazi-container label{
+    position:absolute;
+	top:0px;
+	left:0px;
+	font-size:20px;
+	color:#2b2e4a;	
+    pointer-events: none;
+	transition: all 0.5s ease-in-out;
+}
+
+.yazi-container textarea{ 
+  border:0;
+  border-bottom:1px solid #2b2e4a;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:20px;
+  color:#2b2e4a;
+  height: 300px;
+}
+
+.yazi-container textarea:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #e74c3c;	
+}
+
+.yazi-container textarea:focus ~ label,
+.yazi-container textarea:valid ~ label{
+	top:-12px;
+	font-size:12px;	
+}
+
+.resim-container{
+  position:relative;
+	margin-bottom:40px;
+}
+
+.resim-container label{
+    position:absolute;
+    top:0px;
+	  left:0px;
+	  font-size:20px;
+    pointer-events: none;
+	  color:#2b2e4a;	
+	  transition: all 0.5s ease-in-out;
+}
+
+.resim-container input{ 
+  border:0;
+  border-bottom:1px solid #2b2e4a;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:20px;
+  color:#2b2e4a;
+}
+
+.resim-container input:focus{ 
+ border:none;
+ outline:none;
+ border-bottom:1px solid #e74c3c;
+}
+
+.register-btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.register-btn input{
+  background-color:#2b2e4a;
+  border:none;
+  padding:15px 32px;
+  text-align:center;
+  text-decoration:none;
+  font-size: 18px;
+  cursor:pointer;
+  border-radius:12px;
+  color:#fff;
+}
+
+.ctg-container{
+  position:relative;
+	margin-bottom:25px;
+}
+
+.ctg-container label{
+  position:absolute;
+	top:0px;
+	left:0px;
+	font-size:20px;
+	color:#2b2e4a;
+    pointer-events: none;
+	transition: all 0.5s ease-in-out;
+}
+
+.ctg-container select{ 
+  border:0;
+  border-bottom:1px solid #2b2e4a; 
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:20px;
+  color:#2b2e4a;
+}
+
+.ctg-container select:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #e74c3c;	
+}
+
+.ctg-container select:focus ~ label,
+.ctg-container select:valid ~ label{
+	top:-12px;
+	font-size:12px;	
+}
